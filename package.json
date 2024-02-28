@@ -1,0 +1,15 @@
+{
+  "name": "oursocialmedia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon backend/index.js"
+  },
+  "author": "Mahesh and Rahul",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.1.0"
+  }
+}
