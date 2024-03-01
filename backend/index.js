@@ -1,6 +1,11 @@
 const express = require("express");
+const dotenv = require("dotenv");
+const connectDB = require("./config/databse");
 
 const app = express();
+
+dotenv.config();
+connectDB();
 
 app.get("/", (req, res) => {
   res.send("yoooooo!!!!");
